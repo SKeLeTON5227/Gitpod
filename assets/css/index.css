@@ -47,7 +47,6 @@ header {
 
 nav a {
     color: #12100C;
-    transition: all 0.3s ease;
 }
 
 nav {
@@ -63,7 +62,6 @@ nav {
     border-radius: 12px;
     background-color: #12100C;
     color: #fff;
-    transition: all 0.3s ease;
 }
 
 .login {
@@ -80,14 +78,6 @@ nav a:last-of-type::after {
     position: relative;
     left: 5px;
     bottom: 10px;
-}
-
-nav a:hover {
-    transform: scale(1.03, 1.03);
-}
-
-.login-button:hover {
-    transform: scale(1.03, 1.03);
 }
 
 .hero {
@@ -137,4 +127,32 @@ nav a:hover {
     height: 32px;
     justify-content: space-between;
     margin-top: 16px;
+}
+
+.hero-image {
+    margin-top: 32px;
+    margin-right: 65px;
+}
+
+.wrapper {
+    width: 1310px;
+    height: 572px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-left: 65px;
+    margin-right: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper h2 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.wrapper h2.highlight {
+    text-decoration: line-through;
+    color: #999795;
+    font-weight: 400;
 }
