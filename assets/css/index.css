@@ -76,7 +76,7 @@ nav {
 nav a:last-of-type::after {
     content: "*";
     color: orangered;
-    font-size: 2px;
+    font-size: 20px;
     position: relative;
     left: 5px;
     bottom: 10px;
