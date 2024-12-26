@@ -12,6 +12,7 @@ html {
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
+    background-color: #f5f3f4;
     font-family: "Roboto", serif;
     font-weight: 400;
   }
@@ -40,6 +41,8 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 32px;
+    max-width: 131px;
+    max-height: 40px;
 }
 
 nav a {
@@ -85,4 +88,52 @@ nav a:hover {
 
 .login-button:hover {
     transform: scale(1.03, 1.03);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 65px;
+    margin-right: 65px;
+    width: auto;
+    height: 672px;
+}
+
+.hero-text h1 {
+    margin-top: 129px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+}
+
+.hero-text h2 {
+    margin-top: 31px;
+    line-height: 32px;
+    font-size: 23px;
+}
+
+.hero-buttons {
+    display: flex;
+}
+
+.button {
+    margin-top: 48px;
+    padding: 12px 46px;
+    background-color: #FFAE33;
+    border-radius: 16px;
+    color: #12100C;
+}
+
+.hero-buttons p {
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.icons {
+    display: flex;
+    width: 160px;
+    height: 32px;
+    justify-content: space-between;
+    margin-top: 16px;
 }
