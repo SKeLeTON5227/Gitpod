@@ -156,3 +156,63 @@ nav a:last-of-type::after {
     color: #999795;
     font-weight: 400;
 }
+
+.wrapper2 {
+    margin-top: 18px;
+    margin-left: 65px;
+    margin-right: 65px;
+    width: 1310px;
+    height: 792px;
+    display: flex;
+    align-items: center;
+}
+
+.demo-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.demo-image img {
+    max-width: 590px;
+    max-height: 472px;
+    margin-left: auto;
+}
+
+.demo-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.demo-text p {
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #12100C;
+}
+
+.demo-buttons {
+    display: flex;
+    margin-top: 155px;
+}
+
+.demo-buttons a:first-of-type {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FFAE33;
+    padding: 8px 18px;
+    border-radius: 10.5px;
+    color: #12100C;
+}
+
+.demo-buttons a:last-of-type {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FFB0AE;
+    padding: 8px 24px;
+    border-radius: 10.5px;
+    color: #12100C;
+    margin-left: 16px;
+}
