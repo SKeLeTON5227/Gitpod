@@ -80,9 +80,9 @@ nav a:last-of-type::after {
 }
 
 nav a:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.03, 1.03);
 }
 
 .login-button:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.03, 1.03);
 }
