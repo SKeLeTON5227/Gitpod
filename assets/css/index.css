@@ -82,12 +82,17 @@ nav a:last-of-type::after {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 32px;
-    margin-left: 65px;
-    margin-right: 65px;
-    width: auto;
+    margin-left: auto;
+    gap: 50px;
+    margin-right: auto;
+    width: 100%;
     height: 672px;
+}
+
+.hero-content {
+    width: 560px;
 }
 
 .hero-text h1 {
@@ -131,7 +136,6 @@ nav a:last-of-type::after {
 
 .hero-image {
     margin-top: 32px;
-    margin-right: 65px;
 }
 
 .wrapper {
@@ -140,8 +144,8 @@ nav a:last-of-type::after {
     display: flex;
     flex-direction: column;
     margin-top: 18px;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     justify-content: center;
 }
@@ -159,8 +163,8 @@ nav a:last-of-type::after {
 
 .wrapper2 {
     margin-top: 18px;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: auto;
+    margin-right: auto;
     width: 1310px;
     height: 792px;
     display: flex;
@@ -215,4 +219,74 @@ nav a:last-of-type::after {
     border-radius: 10.5px;
     color: #12100C;
     margin-left: 16px;
+}
+
+.wrapper3 {
+    display: flex;
+    flex-direction: column;
+    width: 1310px;
+    height: 1176px;
+    margin-top: 117px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code-image {
+    -webkit-box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.2);
+    -moz-box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.2);
+    box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.2);
+    margin-top: 48px;
+}
+
+.code-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-main h2 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+}
+
+.code-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+}
+
+.code-desc p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.ext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    gap: 16px;
+}
+
+.extension {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.extension img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.extension a {
+    color: #12100C;
+    font-weight: 700;
+    font-size: 18px;
 }
