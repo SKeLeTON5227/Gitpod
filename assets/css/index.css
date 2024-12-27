@@ -236,6 +236,8 @@ nav a:last-of-type::after {
     -moz-box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.2);
     box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.2);
     margin-top: 48px;
+    max-width: 1269px;
+    max-height: 821px;
 }
 
 .code-main {
@@ -289,4 +291,91 @@ nav a:last-of-type::after {
     color: #12100C;
     font-weight: 700;
     font-size: 18px;
+}
+
+bold {
+    font-weight: 700;
+}
+
+.wrapper4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 179px;
+    width: 1310px;
+    height: 669px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.usage-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usage-title h2 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+}
+
+.comments {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.comment-content p {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.comment-user {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.name {
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.role {
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.usage-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 1140px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.usage-img img {
+    max-width: 1108px;
+    max-height: 158px;
+    margin-bottom: 12px;
 }
